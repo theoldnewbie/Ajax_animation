@@ -1,4 +1,4 @@
-var headUrl = 'http://theoldnewbie.github.io/Ajax_animation';
+var headUrl = 'http://theoldnewbie.github.io/Ajax_animation/';
 var htmlList = ['simple1.html','simple2.html','simple3.html'];
 
 var ajaxResult = 0;
