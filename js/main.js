@@ -1,4 +1,4 @@
-var headUrl = 'http://theoldnewbie.github.io/ajax_v1.01/';
+var headUrl = 'http://theoldnewbie.github.io/Ajax_animation';
 var htmlList = ['simple1.html','simple2.html','simple3.html'];
 var imgList = ['img/Troll1.jpg','img/Troll2.jpg','img/Troll3.jpg'];
 
