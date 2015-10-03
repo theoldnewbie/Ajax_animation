@@ -1,6 +1,5 @@
 var headUrl = 'http://theoldnewbie.github.io/Ajax_animation';
 var htmlList = ['simple1.html','simple2.html','simple3.html'];
-var imgList = ['img/Troll1.jpg','img/Troll2.jpg','img/Troll3.jpg'];
 
 var ajaxResult = 0;
 var $divLeft = $('<div>');
@@ -36,7 +35,7 @@ $.ajax({
 	url: headUrl + imgList[0],
 	success: function(data) {
 		
-		$divRight.html('<img src = ' + this.url + '>');	
+		$divRight.html(data);	
 		$(document.body).append($divRight);
 		
 		animateDivs();
