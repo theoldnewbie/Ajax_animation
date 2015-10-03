@@ -32,7 +32,7 @@ $.ajax({
 });
 
 $.ajax({
-	url: headUrl + imgList[0],
+	url: headUrl + htmlList[1],
 	success: function(data) {
 		
 		$divRight.html(data);	
