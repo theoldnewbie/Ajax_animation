@@ -15,7 +15,7 @@ $divRight.css({
 	position: 'absolute',
 	width: '600px',
 	height: '600px',
-	right: '-700px',
+	right: '-600px',
 	marginRight: '50px'
 });
 $.ajax({
