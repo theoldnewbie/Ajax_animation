@@ -1,5 +1,5 @@
 var headUrl = 'http://theoldnewbie.github.io/Ajax_animation/';
-var htmlList = ['simple1.html','simple2.html','simple3.html'];
+var htmlList = ['simple1.html','simple2.html'];
 
 var ajaxResult = 0;
 var $divLeft = $('<div>');
@@ -15,7 +15,7 @@ $divRight.css({
 	position: 'absolute',
 	width: '600px',
 	height: '600px',
-	right: '-600px',
+	right: '-700px',
 	marginRight: '50px'
 });
 $.ajax({
